@@ -25,7 +25,16 @@
 					text-align: right;
 					font-family: monospace;
 					font-style: italic
-
+				}
+				.column {
+					float: left;
+					width: 33.33%;
+					padding: 5px;
+				}
+				.row::after {
+					content: "";
+					clear: both;
+					display: table;
 				}
 
 		</STYLE>
@@ -35,15 +44,27 @@
 		<div>
 		<H1>$ so bigger $</H1>
 		</div>
-			<IMG SRC = zando.jpeg>
-			<A HREF = "http ://www.zando.co.za">zando </A>
-			<IMG SRC = markham.jpeg>
-			<A HREF = "http ://www.markham.co.za">MARKHAM</A>
-		</div>
-		<hr>
-		<div>
-			<small>&copy;odooms 2019</small>
-			</div>
+
+		<div class = "row">
+			<div class= "column">
+				<IMG SRC = "https://cdn.zando.co.za/cms/1137375689599116.hydyJWvwjx0WwM6C4jfE_height640.png">
+					<br/>
+					<A HREF = "http ://www.zando.co.za">zando </A>
+				</div>
+				<div class= "column">
+					<IMG SRC = "https://image.tfgmedia.co.za/image/1/process/291x425?source=https://cdn.tfgmedia.co.za/02/Marketing/Homepage%20Promo%20Blocks-MKM/MKM_WK39_PORTBLOCK1.jpg">
+						<br\>
+						<p>
+							<A HREF = "http ://www.markham.co.za">MARKHAM</A>
+						</p>
+					</div>
+				</div>
+
+				<hr>
+				<footer>
+
+				</footer><small>&copy;odooms 2019</small>
+			</footer>
 	
 
 	</BODY>
